@@ -15,7 +15,7 @@ class SecondActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            val result = intent.getStringExtra("result") ?: ""
+            val result = intent.getStringExtra(Keys.STRING_RESULT) ?: ""
             SecondScreen(result)
         }
     }
@@ -24,7 +24,7 @@ class SecondActivity : ComponentActivity() {
 @Composable
 fun SecondScreen(result: String) {
     Text(
-        result,
+        text = result,
         modifier = Modifier.padding(
                     start = 16.dp,
                     top = 64.dp
