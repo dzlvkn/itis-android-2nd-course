@@ -1,4 +1,4 @@
-package com.example.android2ndcourse
+package com.example.android2ndcourse.first_task
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
