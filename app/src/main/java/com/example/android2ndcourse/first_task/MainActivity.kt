@@ -1,4 +1,4 @@
-package com.example.android2ndcourse
+package com.example.android2ndcourse.first_task
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,7 +7,6 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.material3.Button
@@ -18,7 +17,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import java.nio.file.WatchEvent
+import com.example.android2ndcourse.R
 
 object Keys {
     const val STRING_RESULT = "result"
@@ -29,18 +28,18 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            val surnameName = stringResource(R.string.surname_and_name)
-            val group = stringResource(R.string.group)
-            FirstScreen(
-                surnameName = surnameName,
-                group = group,
-                onButtonClick = {
-                    val intent = Intent(this@MainActivity, SecondActivity::class.java)
-                    intent.putExtra(Keys.STRING_RESULT, "$surnameName/$group")
-                    startActivity(intent)
-                }
-
-            )
+//            val surnameName = stringResource(R.string.surname_and_name)
+//            val group = stringResource(R.string.group)
+//            FirstScreen(
+//                surnameName = surnameName,
+//                group = group,
+//                onButtonClick = {
+//                    val intent = Intent(this@MainActivity, SecondActivity::class.java)
+//                    intent.putExtra(Keys.STRING_RESULT, "$surnameName/$group")
+//                    startActivity(intent)
+//                }
+//
+//            )
         }
     }
 }
