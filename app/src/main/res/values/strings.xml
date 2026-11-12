@@ -3,4 +3,13 @@
     <string name="surname_and_name">Махмудова Диана</string>
     <string name="group">11-501</string>
     <string name="button_text">Продолжить</string>
+    <string name="button_try_again">Попробовать снова</string>
+    <string name="button_for_watching_the_password">*</string>
+    <string name="hidden_password">*</string>
+    <string name="label_for_email">E-mail</string>
+    <string name="label_for_password">Password</string>
+    <string name="email_error">E-mail введён неверно</string>
+    <string name="password_error">Пароль не соответсвует требованиям</string>
+    <string name="is_empty">Обязательное поле</string>
+    <string name="authorization">Авторизация</string>
 </resources>
