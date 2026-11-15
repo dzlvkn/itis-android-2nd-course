@@ -12,4 +12,36 @@
     <string name="password_error">Пароль не соответсвует требованиям</string>
     <string name="is_empty">Обязательное поле</string>
     <string name="authorization">Авторизация</string>
+
+    <string name="notification_title">Заголовок уведомления</string>
+    <string name="notification_text">Текст уведомления</string>
+    <string name="notification">Уведомление</string>
+    <string name="high_importance">high</string>
+    <string name="default_importance">default</string>
+    <string name="min_importance">min</string>
+    <string name="button_send">Отправить</string>
+    <string name="checkbox_text">Нельзя удалить уведомление</string>
+    <string name="dropdown_menu_text">Выбор важности сообщения</string>
+    <string name="permission_text">Для нормальной работы приложения нужно предоставить разрешение на показ уведомлений</string>
+
+    <string name="button_settings_open">Открыть настройки</string>
+
+    <string name="redacting_notification">Редактирование уведомления</string>
+    <string name="redacting_text_field">Введите ID уведомления</string>
+    <string name="button_redacting">Редактировать</string>
+    <string name="button_delete_all">Удалить всё</string>
+    <string name="button_move_to_location_screen">Следующий экран</string>
+
+    <string name="determine_the_coordinates">Для определения координат нажмите на кнопку</string>
+    <string name="button_for_determine">Определить</string>
+    <string name="need_permission_for_determine">Для определения координат необходимо предоставить разрешение</string>
+
+    <string name="high_importance_channel">high_importance_channel</string>
+    <string name="default_importance_channel">default_importance_channel</string>
+    <string name="min_importance_channel">min_importance_channel</string>
+
+    <string name="high_imp_channel_name">Важные уведомления</string>
+    <string name="default_imp_channel_name">Обычные уведомления</string>
+    <string name="min_imp_channel_name">Неважные уведомления</string>
+
 </resources>
