@@ -12,4 +12,10 @@
     <string name="password_error">Пароль не соответсвует требованиям</string>
     <string name="is_empty">Обязательное поле</string>
     <string name="authorization">Авторизация</string>
+
+    <string name="coroutines">Coroutines</string>
+    <string name="count_coroutines">Количество корутин:</string>
+    <string name="first_but">Последовательно</string>
+    <string name="sec_but">Параллельно</string>
+    <string name="third_but">Остановить всё</string>
 </resources>
